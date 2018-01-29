@@ -1,6 +1,8 @@
 ﻿CryptoJS
 --------
 
+[![NPM](https://nodei.co/npm/cryptojslib.png?downloads=true)](https://nodei.co/npm/cryptojslib/)
+
 This repo is straight unmodified-in-any-way copy of Google Code hosted CryptoJS project at https://code.google.com/p/crypto-js/ . This is hosted at github to add bower package so future updates can be managed better.
 
 ### Directory Structure
@@ -13,6 +15,12 @@ The files in rollups folder is concatenation of one or more files in components 
 ### Install
 
 If you are not using bower then just include the .js file from rollups folder for whatever algorithm you want to use. UTF8 encoder is included in each rollup js. If you need UTF16 or Base64 encoder then also add corresponding files from components folder (see following example).
+
+Using Npm:
+
+```
+npm install cryptojslib
+```
 
 Using Bower:
 
